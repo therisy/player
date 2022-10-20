@@ -1,0 +1,14 @@
+{
+  "name": "player-challenge",
+  "version": "1.0.0",
+  "scripts": {
+    "start:dev": "http-server -p 5000 -c-1",
+    "start:prod": "http-server -p 5000 -c-1 -o --log-ip"
+  },
+  "keywords": [],
+  "author": "risy",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
