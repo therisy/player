@@ -27,13 +27,6 @@ function handleTimeUpdate() {
     duration.innerHTML = format(video.currentTime) + " / " + format(video.duration);
 }
 
-function handleToggleFullScreen() {
-    const video = document.getElementById("test");
-
-    video.classList.toggle("full-screen");
-    video.classList.item(0);
-}
-
 function handlePlayVideo(video) {
     const playBtn = document.getElementById("play-button");
     const activePlayBtn = document.getElementById("play-button-active");

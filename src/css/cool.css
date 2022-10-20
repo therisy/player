@@ -96,16 +96,3 @@ video {
     font-weight: 500;
     font-size: large;
 }
-
-#full-screen-btn {
-    cursor: pointer;
-    z-index: 1 !important;
-}
-
-.full-screen {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-}
-
