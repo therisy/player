@@ -8,14 +8,12 @@ addEventListener("DOMContentLoaded", function () {
 
 function handleEvents() {
     const video = document.getElementById("video");
-    const fullScreenBtn = document.getElementById("full-screen-btn");
 
     video.addEventListener("click", function () {
         handlePlayVideo(video);
     });
 
     video.addEventListener("timeupdate", handleTimeUpdate);
-    fullScreenBtn.addEventListener("click", handleToggleFullScreen);
 }
 
 function handleTimeUpdate() {
